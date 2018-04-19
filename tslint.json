@@ -9,8 +9,13 @@
       "time",
       "timeEnd",
       "trace"
-    ]
+    ],
+    "interface-name": false,
+    "ordered-imports": false,
+    "interface-over-type-literal": false
   },
+  "no-shadowed-variable": false,
+  "array-type": false,
   "linterOptions": {
     "exclude": [
       "config/**/*.js",

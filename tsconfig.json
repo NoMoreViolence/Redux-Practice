@@ -18,6 +18,8 @@
     "noUnusedLocals": true,
     "pretty": true // 에러 메시지를 예쁘게 설정
   },
+  "no-shadowed-variable": false,
+  "array-type": false,
   "rules": {
     "no-console": [
       true,
@@ -27,7 +29,10 @@
       "time",
       "timeEnd",
       "trace"
-    ]
+    ],
+    "interface-name": false,
+    "ordered-imports": false,
+    "interface-over-type-literal": false
   },
   "compress": { 
     "drop_console": true
